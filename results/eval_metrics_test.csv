@@ -1,0 +1,9 @@
+Metric,XGBoost
+Accuracy,0.543
+F-Score,0.531
+""
+Metric,Random Forest
+Accuracy,0.727
+F-Score,0.729
+Precision,0.623
+Recall,0.672
