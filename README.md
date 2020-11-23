@@ -5,7 +5,7 @@ This repository contains the files of the project Song Genre and Hit Prediction.
 ### Instructions to execute the code
 
 1. Run the `download_models.sh`script to download the models.
-2. Execute the `main.py` file with optional arguments such as to construct the dataset or to train the models.
+2. Execute the `main.py` file with optional arguments as shown below to construct the dataset or to train the models.
 - The `main.py` file calls the appropriate file for performing the respective function. For example, if the user input an argument for constructing the dataset, then the `dataset_constructor.py` file is executed.
 - Same is the case for the file `train.py` which trains the models with the dataset constructed in the previous step
 3. The primary function of `main.py` is to run the trained models downloaded in step 1 on the validation data to perform model selection based on their performance. To do this, the `main.py` file executes `validation.py` which evaluates and selects the best model based on the evaluation.
